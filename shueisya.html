@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>集英社サイト</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <!--ヘッダー上部-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">著作権</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">広告掲載</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">サイトマップ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Language</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            
+            <!--ヘッダー下部-->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary nav.fixed-top ml-auto">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">集英社</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">企業情報</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">ニュース</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">採用情報</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">商品＆サービス一覧</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <a class="nav-item nav-link active" href="#">お問い合わせ</a>
+                      <input class="form-control me-2" type="search" placeholder="本をさがす" aria-label="本を探す">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+    <!--カルーセル-->
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://cdn-scissors.gigaviewer.com/image/scale/1addcc74ada4552b5c9c56b066223cfd0b76b51d/enlarge=0;height=800;no_unsharpmask=1;quality=90;version=1;width=2270/https%3A%2F%2Fcdn-img.tonarinoyj.jp%2Fpublic%2Fbanner%2F3269754496630946134-a03aa477555d28d285256daf1b6b94f7%3F1705383831" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn-scissors.gigaviewer.com/image/scale/31729ed97bdfa530341c29087a956b262ecbcaf6/enlarge=0;height=800;no_unsharpmask=1;quality=90;version=1;width=2270/https%3A%2F%2Fcdn-img.tonarinoyj.jp%2Fpublic%2Fbanner%2F3269754496433910951-ca15a99ed5c4e481a7faac51dce797ba%3F1705488817" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn-scissors.gigaviewer.com/image/scale/b7d141118e00c4b837c85d3f51da7d4014261589/enlarge=0;height=800;no_unsharpmask=1;quality=90;version=1;width=2270/https%3A%2F%2Fcdn-img.tonarinoyj.jp%2Fpublic%2Fbanner%2F3269754496554977792-0f4a0f2ed1bce8f0f060fc245d0a8bf9%3F1705488661" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--インフォメーション-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">重要なお知らせ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="list-group">
+            <li class="list-group-item">お知らせ１</li>
+            <li class="list-group-item">お知らせ２</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--集英社ピックアップ一覧-->
+    <h1>集英社ピックアップ</h1>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.shueisha.co.jp/wp-content/uploads/2023/12/newspaper-ad2024-main.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">タイトル</h5>
+            <p class="card-text">あかさたな</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.shueisha.co.jp/wp-content/uploads/2023/12/KINGDOM-2-324x216.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">タイトル</h5>
+            <p class="card-text">ゴリラ</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.shueisha.co.jp/wp-content/uploads/2023/11/fc6927a4cd7fc6f068de9eb5d3ae4aff-324x216.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">タイトル</h5>
+            <p class="card-text">猫</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="https://www.shueisha.co.jp/wp-content/uploads/2023/10/637dc2628fb380490ea84ecc235a4980-324x216.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">タイトル</h5>
+            <p class="card-text">縮めてポケモン</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--新刊情報-->
+    <h2>新刊情報</h2>
+    <ul class="nav nav-underline">
+      <li class="nav-item tab">
+        <a class="nav-link active" aria-current="page">全て</a>
+      </li>
+      <li class="nav-item tab">
+        <a class="nav-link" aria-current="page">雑誌たち</a>
+      </li>
+      <li class="nav-item tab">
+        <a class="nav-link" aria-current="page">コミックス</a>
+      </li>
+    </ul>
+    <!--タブの中身-->
+    <div class="contents">
+        <div class="nav-content">全部</div>
+        <div class="nav-content">雑誌たち</div>
+        <div class="nav-content">コミックス</div>
+    </div>
+    <script>
+      $(function () {
+  //最初のコンテンツ以外は非表示
+  $(".nav-content:not(:first-of-type)").css("display", "none");
+  //タブをクリックしたら
+  $(".tab").on("click", function () {
+    $(".active").removeClass("active");
+    $(this).addClass("active");
+    //クリックしたタブのインデックス番号を取得
+    const index = $(this).index();
+    //コンテンツを非表示、クリックしたタブのインデックス番号と同じコンテンツを表示
+    $(".nav-content").hide().eq(index).show();
+  });
+});
+    </script>
+
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>
