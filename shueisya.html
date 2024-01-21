@@ -150,13 +150,13 @@
     <h2>新刊情報</h2>
     <ul class="nav nav-underline">
       <li class="nav-item tab">
-        <a class="nav-link active" aria-current="page">全て</a>
+        <button class="nav-link active" type="button" aria-current="page">全て</button>
       </li>
       <li class="nav-item tab">
-        <a class="nav-link" aria-current="page">雑誌たち</a>
+        <button class="nav-link" type="button" aria-current="page">雑誌たち</button>
       </li>
       <li class="nav-item tab">
-        <a class="nav-link" aria-current="page">コミックス</a>
+        <button class="nav-link" type="button" aria-current="page">コミックス</button>
       </li>
     </ul>
     <!--タブの中身-->
@@ -171,7 +171,7 @@
   $(".nav-content:not(:first-of-type)").css("display", "none");
   //タブをクリックしたら
   $(".tab").on("click", function () {
-    $(".active").removeClass("active");
+    $(".nav.active").removeClass("active");
     $(this).addClass("active");
     //クリックしたタブのインデックス番号を取得
     const index = $(this).index();
